@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>Natsukashii</title>
+        <link href="css/styles.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+
+    <a id="pop" onclick="myFunction();snd.play()">View Page</a>
+
+        <div id="center">
+            <div id="myDiv" class="mid-region">
+                <ul>
+                    <li><img src="assets/icon.png" alt="Logo" height="225" width="225"></li>
+                    <li><h1>NATSUKASHII</h1></li>
+                    <li><div>
+
+                        <a href="https://discord.gg/dbz6c4N" target="_BLANK"><span class="link" id="discord">discord</span></a> <a id="spacer">×</a>
+                        <a href="https://steamcommunity.com/groups/shyly/" target="_BLANK"><span class="link" id="steam">steam</span></a>
+                    </div></li>
+        
+                    <marquee onmouseover="this.stop();" onmouseout="this.start();" behavior="scroll">
+                        <a href="http://steamcommunity.com/profiles/76561198193064889" target="_BLANK"><span id="shaddix">SHADDIX</span></a> <a id="spacer">-</a>
+                        <a href="http://steamcommunity.com/profiles/76561198451347760" target="_BLANK"><span id="nozomu">NOZOMU</span></a>
+                    </marquee>
+                </ul>
+            </div>
+        </div>
+
+        <script>
+                var snd = new Audio("assets/hakaisu.mp3");
+                repeat() 
+        </script>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("center");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "block";
+  }
+
+  var c = document.getElementById("pop");
+  if (c.style.display === "block") {
+    c.style.display = "none";
+  } else {
+    c.style.display = "none";
+  }
+
+}
+
+
+
+</script>
+
+
+    </body>
+</html>

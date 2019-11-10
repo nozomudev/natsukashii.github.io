@@ -1,0 +1,103 @@
+body, html {
+    overflow: hidden;
+    background-image: url(../assets/bg.jpg);
+    background-repeat: repeat;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+    height: 100%;
+      display: -ms-grid;
+      display: grid;
+      margin: 0px;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+#center {
+    text-align: center;
+    display:none;
+}
+
+#pop {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.685);
+    width: 120px;
+    height: auto;
+    margin: 10% 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    padding: 10px 0px;
+}
+
+.mid-region {
+    padding: 10px 0px;
+    position: absolute;
+    margin: 20% 50%;
+    transform: translate(-50%, -50%);
+
+    background: rgba(0, 0, 0, 0.685);
+    box-shadow: 10px 10px 20px black;
+    width: 300px;
+    height: 400px;
+}
+
+marquee {
+    padding: 20px 0px 0px;
+    font-family: monospace;
+    letter-spacing: 2px;
+    width: 200px;
+    border-bottom: 1px white solid;
+    cursor: default;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#shaddix:hover {
+    color: rgb(37, 239, 239);
+    cursor: pointer;
+    transition: .2s
+}
+
+#nozomu:hover {
+    color: rgb(255, 0, 242);
+    cursor: pointer;
+    transition: .2s
+}
+
+a span {
+    color: white;
+    transition: .2s
+}
+
+.link {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0px 1px 4px rgb(0, 0, 0);
+    cursor: pointer
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover {
+    text-shadow: 2px 2px 0px rgb(78, 78, 78);
+}
+
+#spacer {
+    font-family: monospace;
+}
+
+h1 {
+    text-shadow: 0px 2px 6px rgb(0, 0, 0);
+}
